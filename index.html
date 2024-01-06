@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <!-- displays site properly based on user's device -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./assets/images/favicon-32x32.png" />
+    <title>Frontend Mentor | News homepage</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="container">
+      <div class="before"></div>
+      <header id="home">
+        <h1 class="logo"><img src="./assets/images/logo.svg" alt="logo" /></h1>
+        <nav>
+          <ul class="menu">
+            <li><a href="#home">Home</a></li>
+            <li><a href="#new">New</a></li>
+            <li><a href="#">Popular</a></li>
+            <li><a href="#">Trending</a></li>
+            <li><a href="#categories">Categories</a></li>
+          </ul>
+          <ul class="menu-aside">
+            <div class="close-icon">
+              <img src="./assets/images/icon-menu-close.svg" alt="img" >
+            </div>
+            <li><a href="#home">Home</a></li>
+            <li><a href="#new">New</a></li>
+            <li><a href="#">Popular</a></li>
+            <li><a href="#">Trending</a></li>
+            <li><a href="#categories">Categories</a></li>
+          </ul>
+          <div class="toggle-icon">
+            <img src="./assets/images/icon-menu.svg"/>
+          </div>
+        </nav>
+      </header>
+      <main>
+        <section class="section-content" >
+          <div class="imge-desktop">
+            <img src="./assets/images/image-web-3-desktop.jpg" alt="image" />
+          </div>
+          <div class="imge-mobile">
+            <img src="./assets/images/image-web-3-mobile.jpg" alt="image" />
+          </div>
+          <article>
+            <h2>The Bright Future of Web 3.0?</h2>
+            <div class="info">
+              <p>
+                We dive into the next evolution of the web that claims to put
+                the power of the platforms back into the hands of the people.
+                But is it really fulfilling its promise?
+              </p>
+              <button type="button">Read more</button>
+            </div>
+          </article>
+        </section>
+        <aside id="new">
+          <article>
+            <h3>New</h3>
+            <h4><a href="#">Hydrogen VS Electric Cars</a></h4>
+            <p>Will hydrogen-fueled cars ever catch up to EVs?</p>
+          </article>
+          <article>
+            <h4><a href="#">The Downsides of AI Artistry</a></h4>
+            <p>
+              What are the possible adverse effects of on-demand AI image
+              generation?
+            </p>
+          </article>
+          <article>
+            <h4><a href="#">Is VC Funding Drying Up?</a></h4>
+            <p>
+              Private funding by VC firms is down 50% YOY. We take a look at
+              what that means.
+            </p>
+          </article>
+        </aside>
+      </main>
+      <footer class="footer-content" id="categories">
+        <article>
+          <div class="image">
+            <img src="./assets/images/image-retro-pcs.jpg" alt="img" />
+          </div>
+          <div class="text">
+            <h5>01</h5>
+            <h6><a href="#">Reviving Retro PCs</a></h6>
+            <p>What happens when old PCs are given modern upgrades?</p>
+          </div>
+        </article>
+        <article>
+          <div class="image">
+            <img src="./assets/images/image-top-laptops.jpg" alt="img" />
+          </div>
+          <div class="text">
+            <h5>02</h5>
+            <h6><a href="#">Top 10 Laptops of 2022</a></h6>
+            <p>Our best picks for various needs and budgets.</p>
+          </div>
+        </article>
+        <article>
+          <div class="image">
+            <img src="./assets/images/image-gaming-growth.jpg" alt="img" />
+          </div>
+          <div class="text">
+            <h5>03</h5>
+            <h6><a href="#">The Growth of Gaming</a></h6>
+            <p>How the pandemic has sparked fresh opportunities.</p>
+          </div>
+        </article>
+      </footer>
+    </div>
+    <script src="app.js"></script>
+  </body>
+</html>
